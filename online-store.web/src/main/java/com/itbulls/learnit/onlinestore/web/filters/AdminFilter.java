@@ -5,7 +5,7 @@ import static com.itbulls.learnit.onlinestore.persistence.dto.RoleDto.*;
 
 import java.io.IOException;
 
-import com.itbulls.learnit.onlinestore.persistence.enteties.User;
+import com.itbulls.learnit.onlinestore.persistence.entities.User;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

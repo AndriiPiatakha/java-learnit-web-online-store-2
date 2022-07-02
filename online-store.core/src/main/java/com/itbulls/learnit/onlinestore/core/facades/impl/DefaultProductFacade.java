@@ -6,7 +6,7 @@ import com.itbulls.learnit.onlinestore.core.facades.ProductFacade;
 import com.itbulls.learnit.onlinestore.persistence.dao.ProductDao;
 import com.itbulls.learnit.onlinestore.persistence.dao.impl.MySqlJdbcProductDao;
 import com.itbulls.learnit.onlinestore.persistence.dto.converters.ProductDtoToProductConverter;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Product;
+import com.itbulls.learnit.onlinestore.persistence.entities.Product;
 
 public class DefaultProductFacade implements ProductFacade {
 	
@@ -72,6 +72,11 @@ public class DefaultProductFacade implements ProductFacade {
 	@Override
 	public Product getProductById(Integer productId) {
 		return productConverter.convertProductDtoToProduct(productDao.getProductById(productId));
+	}
+
+	@Override
+	public Product getProductByGuid(String guid) {
+		return productConverter.convertProductDtoToProduct(productDao.getProductByGuid(guid));
 	}
 
 }

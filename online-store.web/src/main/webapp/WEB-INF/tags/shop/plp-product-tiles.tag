@@ -19,8 +19,8 @@
 					<div class="col-md-6">
 						<div class="right-big-b">
 							<div class="tight-btn-b clearfix">
-								<a class="view-btn" href="product?id=${product.id}">View</a> <a
-									href="product?id=${product.id}">$${product.price}</a>
+								<a class="view-btn" href="product?guid=${product.guid}">View</a> <a
+									href="product?guid=${product.guid}">$${product.price}</a>
 							</div>
 						</div>
 					</div>

@@ -1,20 +1,18 @@
 package com.itbulls.learnit.onlinestore.web.controllers;
 
-import jakarta.servlet.http.HttpServlet;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import com.itbulls.learnit.onlinestore.core.facades.CategoryFacade;
 import com.itbulls.learnit.onlinestore.core.facades.ProductFacade;
-import com.itbulls.learnit.onlinestore.core.facades.impl.DefaultCategoryFacade;
 import com.itbulls.learnit.onlinestore.core.facades.impl.DefaultProductFacade;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Product;
+import com.itbulls.learnit.onlinestore.persistence.entities.Product;
 import com.itbulls.learnit.onlinestore.web.Configurations;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 

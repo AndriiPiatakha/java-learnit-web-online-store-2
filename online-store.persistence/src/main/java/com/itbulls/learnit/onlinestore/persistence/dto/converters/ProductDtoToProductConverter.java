@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.itbulls.learnit.onlinestore.persistence.dto.ProductDto;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Product;
-import com.itbulls.learnit.onlinestore.persistence.enteties.impl.DefaultProduct;
+import com.itbulls.learnit.onlinestore.persistence.entities.Product;
+import com.itbulls.learnit.onlinestore.persistence.entities.impl.DefaultProduct;
 
 public class ProductDtoToProductConverter {
 	
@@ -38,6 +38,7 @@ public class ProductDtoToProductConverter {
 				product.setCategoryName(productDto.getCategoryDto().getCategoryName());
 			product.setImgName(productDto.getImgName());
 			product.setDescription(productDto.getDescription());
+			product.setGuid(productDto.getGuid());
 		}
 		return product;
 	}
@@ -60,6 +61,7 @@ public class ProductDtoToProductConverter {
 		productDto.setProductName(product.getProductName());
 		productDto.setImgName(product.getImgName());
 		productDto.setDescription(product.getDescription());
+		productDto.setGuid(product.getGuid());
 		return productDto;
 	}
 

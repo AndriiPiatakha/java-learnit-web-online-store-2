@@ -7,7 +7,7 @@ import com.itbulls.learnit.onlinestore.persistence.dao.ProductDao;
 import com.itbulls.learnit.onlinestore.persistence.dao.impl.MySqlJdbcProductDao;
 import com.itbulls.learnit.onlinestore.persistence.dto.ProductDto;
 import com.itbulls.learnit.onlinestore.persistence.dto.converters.ProductDtoToProductConverter;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Product;
+import com.itbulls.learnit.onlinestore.persistence.entities.Product;
 
 public class MySqlProductManagementService implements ProductManagementService {
 

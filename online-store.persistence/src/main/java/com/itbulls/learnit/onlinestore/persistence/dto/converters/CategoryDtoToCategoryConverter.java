@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.itbulls.learnit.onlinestore.persistence.dto.CategoryDto;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Category;
-import com.itbulls.learnit.onlinestore.persistence.enteties.impl.DefaultCategory;
+import com.itbulls.learnit.onlinestore.persistence.entities.Category;
+import com.itbulls.learnit.onlinestore.persistence.entities.impl.DefaultCategory;
 
 public class CategoryDtoToCategoryConverter {
 

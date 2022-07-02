@@ -15,7 +15,7 @@ import com.itbulls.learnit.onlinestore.persistence.dao.UserDao;
 import com.itbulls.learnit.onlinestore.persistence.dto.ProductDto;
 import com.itbulls.learnit.onlinestore.persistence.dto.PurchaseDto;
 import com.itbulls.learnit.onlinestore.persistence.dto.PurchaseStatusDto;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Purchase;
+import com.itbulls.learnit.onlinestore.persistence.entities.Purchase;
 import com.itbulls.learnit.onlinestore.persistence.utils.DBUtils;
 
 public class MySqlJdbcPurchaseDao implements PurchaseDao {
@@ -31,7 +31,6 @@ public class MySqlJdbcPurchaseDao implements PurchaseDao {
 		try (var conn = DBUtils.getConnection(); 
 				var ps = conn.prepareStatement("INSERT INTO purchase (fk_purchase_user, fk_purchase_purchase_status) VALUES (?, ?);", Statement.RETURN_GENERATED_KEYS);
 				var psPurchaseProduct = conn.prepareStatement("INSERT INTO purchase_product (purchase_id, product_id) VALUES (?, ?)")) {
-			System.out.println("=============== " + purchase.getPurchaseStatusDto().getId());
 			ps.setInt(1, purchase.getUserDto().getId());
 			ps.setInt(2, purchase.getPurchaseStatusDto().getId());
 			ps.executeUpdate();

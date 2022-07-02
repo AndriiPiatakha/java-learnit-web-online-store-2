@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.itbulls.learnit.onlinestore.persistence.dto.PurchaseDto;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Purchase;
-import com.itbulls.learnit.onlinestore.persistence.enteties.impl.DefaultPurchase;
+import com.itbulls.learnit.onlinestore.persistence.entities.Purchase;
+import com.itbulls.learnit.onlinestore.persistence.entities.impl.DefaultPurchase;
 
 public class PurchaseDtoToPurchaseConverter {
 	

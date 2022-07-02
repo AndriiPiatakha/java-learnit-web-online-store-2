@@ -10,7 +10,7 @@ import com.itbulls.learnit.onlinestore.core.services.impl.DefaultAffiliateMarket
 import com.itbulls.learnit.onlinestore.persistence.dao.UserDao;
 import com.itbulls.learnit.onlinestore.persistence.dao.impl.MySqlJdbcUserDao;
 import com.itbulls.learnit.onlinestore.persistence.dto.converters.UserDtoToUserConverter;
-import com.itbulls.learnit.onlinestore.persistence.enteties.User;
+import com.itbulls.learnit.onlinestore.persistence.entities.User;
 
 public class DefaultUserFacade implements UserFacade {
 	

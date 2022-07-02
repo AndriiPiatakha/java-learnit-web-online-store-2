@@ -6,7 +6,7 @@ import java.util.List;
 
 import com.itbulls.learnit.onlinestore.core.facades.UserFacade;
 import com.itbulls.learnit.onlinestore.core.facades.impl.DefaultUserFacade;
-import com.itbulls.learnit.onlinestore.persistence.enteties.User;
+import com.itbulls.learnit.onlinestore.persistence.entities.User;
 import com.itbulls.learnit.onlinestore.web.Configurations;
 import com.itbulls.learnit.onlinestore.web.filters.PartnerCodeFilter;
 

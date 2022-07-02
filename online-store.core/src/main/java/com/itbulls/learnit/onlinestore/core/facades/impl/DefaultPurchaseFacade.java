@@ -11,12 +11,12 @@ import com.itbulls.learnit.onlinestore.persistence.dao.PurchaseDao;
 import com.itbulls.learnit.onlinestore.persistence.dao.impl.MySqlJdbcPurchaseDao;
 import com.itbulls.learnit.onlinestore.persistence.dto.PurchaseDto;
 import com.itbulls.learnit.onlinestore.persistence.dto.converters.PurchaseDtoToPurchaseConverter;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Product;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Purchase;
-import com.itbulls.learnit.onlinestore.persistence.enteties.PurchaseStatus;
-import com.itbulls.learnit.onlinestore.persistence.enteties.User;
-import com.itbulls.learnit.onlinestore.persistence.enteties.impl.DefaultPurchase;
-import com.itbulls.learnit.onlinestore.persistence.enteties.impl.DefaultPurchaseStatus;
+import com.itbulls.learnit.onlinestore.persistence.entities.Product;
+import com.itbulls.learnit.onlinestore.persistence.entities.Purchase;
+import com.itbulls.learnit.onlinestore.persistence.entities.PurchaseStatus;
+import com.itbulls.learnit.onlinestore.persistence.entities.User;
+import com.itbulls.learnit.onlinestore.persistence.entities.impl.DefaultPurchase;
+import com.itbulls.learnit.onlinestore.persistence.entities.impl.DefaultPurchaseStatus;
 
 public class DefaultPurchaseFacade implements PurchaseFacade {
 	

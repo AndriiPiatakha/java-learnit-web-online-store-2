@@ -50,10 +50,10 @@
                
                <div class="col-md-5 col-sm-16">
                   <div class="price-box-right">
-                     <h4>Price</h4>
+                     <h4>Price ${product.guid}</h4>
                      <h3>$${product.price}</h3>
                      <c:if test="${not empty loggedInUser}">
-                     	<a href="checkout?id=${product.id}">Buy</a>
+                     	<a href="checkout?guid=${product.guid}">Buy</a>
                      </c:if>
                      <c:if test="${empty loggedInUser}">
                      	<a href="signin">Buy</a>

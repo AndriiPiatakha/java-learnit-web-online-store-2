@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import com.itbulls.learnit.onlinestore.core.facades.CategoryFacade;
 import com.itbulls.learnit.onlinestore.core.facades.impl.DefaultCategoryFacade;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Category;
+import com.itbulls.learnit.onlinestore.persistence.entities.Category;
 import com.itbulls.learnit.onlinestore.web.Configurations;
 
 @WebServlet("/homepage")

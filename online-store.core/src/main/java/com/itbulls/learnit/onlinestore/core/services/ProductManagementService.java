@@ -2,7 +2,7 @@ package com.itbulls.learnit.onlinestore.core.services;
 
 import java.util.List;
 
-import com.itbulls.learnit.onlinestore.persistence.enteties.Product;
+import com.itbulls.learnit.onlinestore.persistence.entities.Product;
 
 public interface ProductManagementService {
 

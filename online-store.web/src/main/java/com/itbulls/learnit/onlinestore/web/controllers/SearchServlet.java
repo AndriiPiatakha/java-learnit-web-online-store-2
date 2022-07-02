@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 
 import com.itbulls.learnit.onlinestore.core.facades.ProductFacade;
 import com.itbulls.learnit.onlinestore.core.facades.impl.DefaultProductFacade;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Product;
+import com.itbulls.learnit.onlinestore.persistence.entities.Product;
 import com.itbulls.learnit.onlinestore.web.Configurations;
 
 import jakarta.servlet.ServletException;

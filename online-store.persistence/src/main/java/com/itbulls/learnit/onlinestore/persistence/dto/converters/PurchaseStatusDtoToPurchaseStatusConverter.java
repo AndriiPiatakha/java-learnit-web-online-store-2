@@ -1,8 +1,8 @@
 package com.itbulls.learnit.onlinestore.persistence.dto.converters;
 
 import com.itbulls.learnit.onlinestore.persistence.dto.PurchaseStatusDto;
-import com.itbulls.learnit.onlinestore.persistence.enteties.PurchaseStatus;
-import com.itbulls.learnit.onlinestore.persistence.enteties.impl.DefaultPurchaseStatus;
+import com.itbulls.learnit.onlinestore.persistence.entities.PurchaseStatus;
+import com.itbulls.learnit.onlinestore.persistence.entities.impl.DefaultPurchaseStatus;
 
 public class PurchaseStatusDtoToPurchaseStatusConverter {
 

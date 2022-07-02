@@ -7,7 +7,7 @@ import com.itbulls.learnit.onlinestore.persistence.dao.PurchaseDao;
 import com.itbulls.learnit.onlinestore.persistence.dao.impl.MySqlJdbcPurchaseDao;
 import com.itbulls.learnit.onlinestore.persistence.dto.PurchaseDto;
 import com.itbulls.learnit.onlinestore.persistence.dto.converters.PurchaseDtoToPurchaseConverter;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Purchase;
+import com.itbulls.learnit.onlinestore.persistence.entities.Purchase;
 
 public class MySqlPurchaseManagementService implements PurchaseManagementService {
 	

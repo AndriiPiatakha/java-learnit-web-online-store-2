@@ -6,7 +6,7 @@ import java.util.List;
 
 import com.itbulls.learnit.onlinestore.core.facades.PurchaseFacade;
 import com.itbulls.learnit.onlinestore.core.facades.impl.DefaultPurchaseFacade;
-import com.itbulls.learnit.onlinestore.persistence.enteties.Purchase;
+import com.itbulls.learnit.onlinestore.persistence.entities.Purchase;
 import com.itbulls.learnit.onlinestore.web.Configurations;
 
 import jakarta.servlet.ServletException;

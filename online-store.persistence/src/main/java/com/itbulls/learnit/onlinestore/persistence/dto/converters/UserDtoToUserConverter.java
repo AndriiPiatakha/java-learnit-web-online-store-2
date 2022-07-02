@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.itbulls.learnit.onlinestore.persistence.dto.UserDto;
-import com.itbulls.learnit.onlinestore.persistence.enteties.User;
-import com.itbulls.learnit.onlinestore.persistence.enteties.impl.DefaultUser;
+import com.itbulls.learnit.onlinestore.persistence.entities.User;
+import com.itbulls.learnit.onlinestore.persistence.entities.impl.DefaultUser;
 
 
 public class UserDtoToUserConverter {

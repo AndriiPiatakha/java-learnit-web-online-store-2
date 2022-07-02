@@ -23,7 +23,6 @@ public class DefaultValidator implements Validator {
 				}
 				if (fieldValue instanceof String) {
 					if(!((String)fieldValue).matches(pattern)) {
-						System.out.println("FALSE " + fieldValue);
 						return false;
 					}
 				}

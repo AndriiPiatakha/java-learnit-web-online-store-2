@@ -2,7 +2,7 @@ package com.itbulls.learnit.onlinestore.core.facades;
 
 import java.util.List;
 
-import com.itbulls.learnit.onlinestore.persistence.enteties.Product;
+import com.itbulls.learnit.onlinestore.persistence.entities.Product;
 
 public interface ProductFacade {
 	
@@ -20,5 +20,7 @@ public interface ProductFacade {
 			Integer paginationLimit);
 
 	Product getProductById(Integer parameter);
+
+	Product getProductByGuid(String guid);
 
 }
